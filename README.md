@@ -1,26 +1,29 @@
-README for Quality Control and Trimming Script
-This script performs quality control and trimming on paired-end FASTQ files. It uses FastQC for initial quality assessment, Trimmomatic for trimming low-quality reads, and MultiQC for aggregating the results.
+# QC and Trimming Script
 
-Dependencies
-To run this script, you need to have the following tools installed:
+## Overview
 
-FastQC: For quality control of FASTQ files.
-Trimmomatic: For trimming low-quality reads.
-MultiQC: For aggregating the results of FastQC and other tools.
+This script performs quality control and trimming on paired-end FASTQ files. It uses **FastQC** for initial quality assessment, **Trimmomatic** for trimming low-quality reads, and **MultiQC** for aggregating the results.
 
-You can install these tools via Conda or your system's package manager.
+## Dependencies
 
-Installing Dependencies
-1. FastQC
+To run this script, ensure you have the following tools installed:
+
+- **FastQC**: For quality control of FASTQ files.
+- **Trimmomatic**: For trimming low-quality reads.
+- **MultiQC**: For aggregating the results.
+
+### Installation
+
+#### FastQC
 conda install -c bioconda fastqc
 
-2. Trimmomatic
+#### Trimmomatic
 conda install -c bioconda trimmomatic
 
-3. MultiQC
+#### MultiQC
 conda install -c bioconda multiqc
 
-Script Overview
+#### Script Overview
 The script performs the following tasks:
 
 Check Arguments and Paths:
