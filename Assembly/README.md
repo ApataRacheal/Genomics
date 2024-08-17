@@ -54,13 +54,13 @@ A sample bash script to automate the SPAdes assembly for paired-end reads. Make 
 
 3. File Extensions: File Naming Conventions: The script assumes paired-end files follow the naming convention _1_trimmed.fastq.gz and _2_trimmed.fastq.gz. Adjust the file extensions and naming patterns if your files use different conventions.
 
-#### Make the Script Executable:
+#### **Make the Script Executable**:
    ```bash
-   chmod +x run_spades.sh
+   chmod +x spades_assembly.sh
 
-#### Run the Script:
+#### **Run the Script**:
    ```bash
-   ./run_spades.sh
+   ./spades_assembly.sh
 
 ## Additional Resources
 https://github.com/ablab/spades
